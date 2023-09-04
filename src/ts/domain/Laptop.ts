@@ -6,6 +6,5 @@ export default class Laptop implements Buyable {
         readonly name: string,
         readonly price: number,
         public quantity: number,
-
     ) { }
 }
